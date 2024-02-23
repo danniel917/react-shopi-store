@@ -7,7 +7,7 @@ function NavBar() {
   const handleActive = ({ isActive }) => (isActive ? activeStyle : undefined);
 
   return (
-    <nav className="grid grid-flow-col justify-between fixed z-2 w-full px-8 px-5">
+    <nav className="grid grid-flow-col justify-between fixed z-2 top-0 w-full px-8 py-5">
       <ul className="grid grid-flow-col gap-x-4 items-center">
         {left_items.map(({ path_link, path_name}, index) => (
           <li key={index}>
