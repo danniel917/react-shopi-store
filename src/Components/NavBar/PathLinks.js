@@ -9,20 +9,20 @@ const left_items = [
       path_link: "/",
     },
     {
-      path_name: "Clothes",
-      path_link: "/clothes",
+      path_name: "Men's Clothing",
+      path_link: "men's clothing",
+    },
+    {
+      path_name: "Jewelery",
+      path_link: "jewelery",
     },
     {
       path_name: "Electronics",
-      path_link: "/electronics",
+      path_link: "electronics",
     },
     {
-      path_name: "Furnitures",
-      path_link: "/furnitures",
-    },
-    {
-      path_name: "Toys",
-      path_link: "/toys",
+      path_name: "Women's Clothing",
+      path_link: "women's clothing",
     },
     {
       path_name: "Others",
@@ -46,11 +46,7 @@ const left_items = [
     {
       path_name: "Sign In",
       path_link: "/sign-in",
-    },
-    {
-      path_name: "Cart 0",
-      path_link: "",
-    },
+    }
   ];
 
   export {left_items, right_items}
